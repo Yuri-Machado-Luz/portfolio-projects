@@ -1,0 +1,48 @@
+# Sistema
+.DS_Store
+Thumbs.db
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-error.log*
+pnpm-lock.yaml
+.env
+dist/
+build/
+.cache/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+env/
+venv/
+.venv/
+
+# IDEs / editors
+.vscode/
+.idea/
+*.suo
+*.user
+*.sln
+*.swp
+
+# Logs / reports
+*.log
+coverage/
+coverage.xml
+*.lcov
+
+# Arquivos temporários
+*.tmp
+*.bak
+temp/
+
+# Playwright
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+/playwright/.auth/
