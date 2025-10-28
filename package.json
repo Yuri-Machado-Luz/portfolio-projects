@@ -30,7 +30,7 @@
   },
   "license": "UNLICENSED",
   "author": "Yuri Machado Luz",
-  "type": "diverse",
+  "type": "module",
   "main": "none",
   "scripts": {},
   "dependencies": {
@@ -40,7 +40,6 @@
     "npm": "^11.6.2",
     "prettier": "^3.6.2",
     "sass": "^1.93.2",
-    "vue": "^3.5.22",
     "yamljs": "^0.3.0"
   },
   "devDependencies": {
