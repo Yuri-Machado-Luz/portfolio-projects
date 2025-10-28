@@ -1,0 +1,52 @@
+// Typography Styles
+
+$font-heading: 'Brawler', serif;
+$font-monospace: 'Ubuntu Mono', monospace;
+$font-display: 'Black Ops One', system-ui;
+
+
+
+// Brawler Font Styles
+.brawler-regular {
+  font-family: "Brawler", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.brawler-bold {
+  font-family: "Brawler", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+// Ubuntu Mono Font Styles
+.ubuntu-mono-regular {
+  font-family: "Ubuntu Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.ubuntu-mono-bold {
+  font-family: "Ubuntu Mono", monospace;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.ubuntu-mono-regular-italic {
+  font-family: "Ubuntu Mono", monospace;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.ubuntu-mono-bold-italic {
+  font-family: "Ubuntu Mono", monospace;
+  font-weight: 700;
+  font-style: italic;
+}
+
+// Black Ops One Font Styles
+.black-ops-one-regular {
+  font-family: "Black Ops One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
