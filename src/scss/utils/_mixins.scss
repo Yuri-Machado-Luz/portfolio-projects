@@ -1,0 +1,40 @@
+@use "functions" as f;
+@use "sass:math";
+@use "sass:map";
+
+@mixin fs-fluid($min-vw, $max-vw, $min-value, $max-value) {
+  $factor: math.div(1, ($max-vw - $min-vw)) * ($max-value - $min-value);
+  $calc-value: unquote(
+    "#{$min-value - ($min-vw * $factor)} + #{$factor * 100vw}"
+  );
+
+  font-size: $min-value;
+  font-size: clamp(
+    #{if($min-value > $max-value, $max-value, $min-value)},
+    #{$calc-value},
+    #{if($min-value > $max-value, $min-value, $max-value)}
+  );
+}
+
+
+
+$breakpoints: (
+  'small': f.em(600),
+  'medium': f.em(900),
+  'large': f.em(1200)
+);
+
+
+@mixin breakpoint($size) {
+  @media (width >= map.get($breakpoints, $size)) {
+    @content;
+  }
+}
+
+
+@mixin breakpoint-down($size) {
+  @media (width < map.get($breakpoints, $size)) {
+    @content;
+  }
+}
+
