@@ -1,0 +1,48 @@
+:root {
+  --color-bg: hsl(351, 36%, 11%);
+  --color-header-bg: hsl(0, 37%, 20%);
+  --color-text: hsl(0, 0%, 93%);
+  --color-accent: hsl(0, 89%, 51%);
+  --color-highlight: hsl(0, 89%, 41%);
+}
+
+.wrapper {
+  width: min(100% - 40px, 75rem);
+  margin-inline: auto;
+}
+.wrapper.has-padding {
+  padding-block: 40px;
+}
+@media (width >= 56.25em) {
+  .wrapper.has-padding {
+    padding-block: 60px;
+  }
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: var(--color-bg);
+  color: var(--color-text);
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.rounded {
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+em {
+  font-style: normal;
+  background: var(--color-highlight);
+}/*# sourceMappingURL=styles.css.map */
