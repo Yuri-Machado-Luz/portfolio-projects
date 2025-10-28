@@ -31,10 +31,14 @@
   "license": "UNLICENSED",
   "author": "Yuri Machado Luz",
 <<<<<<< HEAD
+<<<<<<< HEAD
   "type": "module",
 =======
   "type": "diverse",
 >>>>>>> 4e0911a (feat: initialize portfolio project with Playwright testing framework)
+=======
+  "type": "module",
+>>>>>>> 0ff6350 (feat: adicionar configuração do ESLint, arquivos HTML e JavaScript, e atualizar package.json)
   "main": "none",
   "scripts": {},
   "dependencies": {
@@ -45,9 +49,12 @@
     "prettier": "^3.6.2",
     "sass": "^1.93.2",
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     "vue": "^3.5.22",
 >>>>>>> 4e0911a (feat: initialize portfolio project with Playwright testing framework)
+=======
+>>>>>>> 0ff6350 (feat: adicionar configuração do ESLint, arquivos HTML e JavaScript, e atualizar package.json)
     "yamljs": "^0.3.0"
   },
   "devDependencies": {
