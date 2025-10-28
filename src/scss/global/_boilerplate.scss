@@ -1,3 +1,4 @@
+@use './typography' as t;
 @use '../utils/' as u;
 
 *,
@@ -8,7 +9,7 @@
 
 body {
   margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: t.$font-monospace;
   background: var(--color-bg);
   color: var(--color-text);
 }
