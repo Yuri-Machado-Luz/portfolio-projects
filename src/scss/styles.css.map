@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 {"version":3,"sources":[],"names":[],"mappings":"","file":"styles.css"}
+=======
+{"version":3,"sources":["global/_colors.scss","styles.css","global/_layout.scss","utils/_mixins.scss","global/_boilerplate.scss","global/_decorations.scss"],"names":[],"mappings":"AAAA;EACE,8BAAA;EACA,mCAAA;EACA,6BAAA;EACA,gCAAA;EACA,mCAAA;ACCF;;ACJA;EACE,8BAAA;EACA,mBAAA;ADOF;ACLE;EACE,mBAAA;ADOJ;AEcE;EDtBA;IAII,mBAAA;EDQJ;AACF;;AGjBA;;;EAGE,sBAAA;AHoBF;;AGjBA;EACE,SAAA;EACA,yCAAA;EACA,2BAAA;EACA,wBAAA;AHoBF;;AGjBA;EACE,eAAA;EACA,cAAA;AHoBF;;AIrCA;EACE,mBAAA;EACA,gBAAA;AJwCF;;AIrCA;EACE,kBAAA;EACA,kCAAA;AJwCF","file":"styles.css"}
+>>>>>>> 3f1efb3 (feat: adicionar arquivos de estilo (styles.css, styles.scss) e mapa de estilos (styles.css.map))
