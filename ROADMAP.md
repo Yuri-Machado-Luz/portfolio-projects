@@ -121,7 +121,7 @@ Este roadmap detalha o planejamento e progresso de desenvolvimento do Portfolio 
 
 ## Versão 0.2.0-alpha (Planejada)
 
-### Data prevista: Janeiro 2026
+### Data prevista: Q1 2026
 
 ### Foco: Interatividade e Aprimoramento Visual
 
@@ -157,7 +157,7 @@ Este roadmap detalha o planejamento e progresso de desenvolvimento do Portfolio 
 
 ## Versão 0.3.0-alpha (Planejada)
 
-### Data prevista: Março 2026
+### Data prevista: Q2 2026
 
 ### Foco: Backend e Funcionalidades Avançadas
 
@@ -188,7 +188,7 @@ Este roadmap detalha o planejamento e progresso de desenvolvimento do Portfolio 
 
 ## Versão 1.0.0 (Release)
 
-### Data prevista: Maio 2026
+### Data prevista: Q2 2026
 
 ### Foco: Produção e Deploy
 
