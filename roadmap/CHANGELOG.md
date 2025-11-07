@@ -16,10 +16,13 @@ e este projeto adere ao [Versionamento Semântico](https://semver.org/lang/pt-BR
 ### Modificado
 - Atualização de README inicial com informações do projeto
 - Simplificação da estrutura de arquivos SCSS para melhor organização e manutenção
+- Alteração do framework planejado de Vue.js para React (implementação pós-MVP)
+- Documentação atualizada para refletir uso de JavaScript puro no MVP inicial
 
 ### Corrigido
 - Resolução de conflitos de merge em package.json e index.html
 - Regeneração de package-lock.json
+- Remoção da dependência Vue.js (não será utilizada)
 
 ## [0.1.0-alpha] - Em Desenvolvimento
 

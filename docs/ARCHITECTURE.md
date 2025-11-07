@@ -121,7 +121,7 @@ Router {
 **Tecnologias:**
 - JavaScript ES6+
 - Módulos ES6
-- Possível integração futura com Vue.js
+- React (planejado para pós-MVP)
 
 **Arquivos principais:**
 - `src/js/app.js` - Aplicação principal
@@ -263,17 +263,19 @@ Para nomenclatura de classes CSS:
 
 ### 4. Vanilla JS vs Framework
 
-**Decisão Atual:** Vanilla JavaScript com possível migração para Vue.js
+**Decisão Atual:** Vanilla JavaScript para MVP inicial, migração para React pós-MVP
 
-**Razões:**
+**Razões para MVP com Vanilla JS:**
 - ✅ Aprendizado dos fundamentos
 - ✅ Performance otimizada
 - ✅ Sem dependências pesadas
 - ✅ Flexibilidade total
+- ✅ Implementação rápida do MVP
 
-**Considerações futuras:**
-- Vue.js está incluído nas dependências para uso futuro
-- Migração será feita gradualmente se necessário
+**Plano Futuro:**
+- React será adotado após conclusão do MVP
+- Migração será feita gradualmente
+- Permitirá componentização mais robusta e escalabilidade
 
 ## Performance
 
@@ -351,7 +353,7 @@ Para nomenclatura de classes CSS:
    - Separação de concerns
 
 3. **State Management**
-   - Estrutura para Vuex ou similar no futuro
+   - Estrutura para Redux ou Context API no futuro
    - Padrões de gerenciamento de estado
 
 4. **Internacionalização (i18n)**
@@ -380,7 +382,7 @@ Para nomenclatura de classes CSS:
 
 - [MDN Web Docs](https://developer.mozilla.org/)
 - [Web.dev](https://web.dev/)
-- [Vue.js Documentation](https://vuejs.org/)
+- [React Documentation](https://react.dev/)
 - [Playwright Documentation](https://playwright.dev/)
 - [WCAG 2.1 Guidelines](https://www.w3.org/WAI/WCAG21/quickref/)
 

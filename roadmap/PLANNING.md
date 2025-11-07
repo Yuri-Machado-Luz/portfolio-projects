@@ -111,8 +111,8 @@ Criar um portfólio web moderno e responsivo para showcase de projetos pessoais,
 ### Frontend
 - **HTML5** - Estrutura
 - **CSS3/SCSS** - Estilos
-- **JavaScript ES6+** - Lógica
-- **Vue.js 3** - Framework (considerando)
+- **JavaScript ES6+** - Lógica (MVP inicial)
+- **React** - Framework (pós-MVP)
 
 ### Ferramentas de Desenvolvimento
 - **ESLint** - Linting

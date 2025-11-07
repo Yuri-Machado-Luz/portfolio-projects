@@ -26,7 +26,7 @@ Este é um projeto de portfólio web moderno desenvolvido para showcasing de pro
 - **HTML5** - Estrutura semântica
 - **CSS3/SCSS** - Estilização com pré-processador
 - **JavaScript (ES6+)** - Funcionalidades interativas
-- **Vue.js 3.5.22** - Framework JavaScript (planejado para uso futuro)
+- **React** - Framework JavaScript (planejado para pós-MVP)
 
 ### Ferramentas de Desenvolvimento
 
