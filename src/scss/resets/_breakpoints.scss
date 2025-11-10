@@ -1,0 +1,27 @@
+@use 'sass:map';
+
+// Mapa de breakpoints
+$breakpoints: (
+  small: 480px,
+  // Breakpoint para telas médias (tablets)
+  medium: 768px,
+  // Breakpoint para telas grandes (desktops)
+  large: 1024px,
+  // Breakpoint para telas extra grandes (monitores grandes)
+  xlarge: 1200px
+);
+
+// Função para 'chamar' um breakpoint em media queries
+// Mixin para envolver conteúdo em uma media query para um breakpoint
+@mixin breakpoint($size) {
+  @media (max-width: map.get($breakpoints, $size)) {
+    @content;
+  }
+}
+
+// Exemplo de uso do mixin
+// .example {
+//   @include breakpoint(medium) {
+//     font-size: 14px;
+//   }
+// }
