@@ -1,186 +1,118 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-/*# sourceMappingURL=styles.css.map */
-=======
-:root {
-  --color-bg: hsl(351, 36%, 11%);
-  --color-header-bg: hsl(0, 37%, 20%);
-  --color-text: hsl(0, 0%, 93%);
-  --color-accent: hsl(0, 89%, 51%);
-  --color-highlight: hsl(0, 89%, 41%);
-  --color-border: hsl(0, 0%, 30%);
-}
-
-.wrapper {
-  width: min(100% - 40px, 75rem);
-  margin-inline: auto;
-}
-.wrapper.has-padding {
-  padding-block: 40px;
-}
-@media (width >= 56.25em) {
-  .wrapper.has-padding {
-    padding-block: 60px;
-  }
-}
-
-.brawler-regular {
-  font-family: "Brawler", serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.brawler-bold {
-  font-family: "Brawler", serif;
-  font-weight: 700;
-  font-style: normal;
-}
-
-.ubuntu-mono-regular {
-  font-family: "Ubuntu Mono", monospace;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.ubuntu-mono-bold {
-  font-family: "Ubuntu Mono", monospace;
-  font-weight: 700;
-  font-style: normal;
-}
-
-.ubuntu-mono-regular-italic {
-  font-family: "Ubuntu Mono", monospace;
-  font-weight: 400;
-  font-style: italic;
-}
-
-.ubuntu-mono-bold-italic {
-  font-family: "Ubuntu Mono", monospace;
-  font-weight: 700;
-  font-style: italic;
-}
-
-.black-ops-one-regular {
-  font-family: "Black Ops One", system-ui;
-  font-weight: 400;
-  font-style: normal;
-}
-
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
-
 body {
   margin: 0;
-  font-family: "Ubuntu Mono", monospace;
-  background: var(--color-bg);
-  color: var(--color-text);
-}
-
-img {
-  max-width: 100%;
-  display: block;
-}
-
-.rounded {
-  border-radius: 16px;
-  overflow: hidden;
-}
-
-em {
-  font-style: normal;
-  background: var(--color-highlight);
-<<<<<<< HEAD
-}/*# sourceMappingURL=styles.css.map */
->>>>>>> 3f1efb3 (feat: adicionar arquivos de estilo (styles.css, styles.scss) e mapa de estilos (styles.css.map))
-=======
-}
-
-html {
-  scroll-behavior: smooth;
-}
-html ul {
-  list-style: none;
   padding: 0;
-  margin: 0;
-}
-html li {
-  margin: 0;
-  padding: 0;
-}
-html a {
-  text-decoration: none;
-  color: inherit;
+  min-height: 100vh;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-@keyframes hover-grow-text {
-  50% {
-    font-size: 1.3rem;
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.PRODUCTION {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+  height: 100px;
+  background-color: rgba(31, 31, 31, 0.589);
+  border-radius: 15px;
+  color: rgb(0, 0, 0);
+  animation: placeHolder 4s ease-in-out infinite alternate;
+}
+
+@keyframes placeHolder {
+  from {
+    transform: skewY(-2deg) skewX(5deg);
+  }
+  to {
+    transform: skewY(2deg) skewX(-5deg);
   }
 }
-.header {
-  background-color: hsl(0, 37%, 20%);
-  padding: 20px;
-  border-bottom: 1px solid hsl(0, 0%, 30%);
-  font-family: "Brawler", serif;
+.content {
+  position: relative;
+  background-color: inherit;
+  font-family: "Tahoma, Geneva, Verdana, sans-serif";
+  text-justify: center;
+  text-align: center;
+  font-weight: bold;
+  text-shadow: black 0 0 3px, black 0 0 6px, black 0 0 20px;
+  font-size: 4rem;
+  border-radius: inherit;
+  text-wrap: nowrap;
+  padding: 25px 125px;
+  z-index: 2;
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+  border: solid 1px rgba(107, 107, 107, 0.753);
+  animation: shadowChange 3s ease-in-out infinite alternate;
 }
-.header div {
-  width: 100%;
-  max-width: 1200px;
-  margin: 0 auto;
+
+@keyframes shadowChange {
+  0% {
+    box-shadow: 0 50px 200px rgba(192, 0, 74, 0.589);
+  }
+  100% {
+    box-shadow: 0 50px 200px rgba(0, 255, 255, 0.329);
+  }
 }
-.header div .__navbar {
+.border {
+  position: absolute;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  width: 600px;
+  height: 100px;
+  border-radius: 15px;
 }
-.header div .__nav-logo {
-  font-size: 1.5rem;
-  color: hsl(0, 0%, 93%);
-  text-decoration: none;
-  font-weight: 700;
-  transition: all 0.5s ease-in-out;
+
+@property --degsvar {
+  syntax: "<angle>";
+  initial-value: 0deg;
+  inherits: false;
 }
-.header div .__nav-logo:hover {
-  color: hsl(0, 89%, 81%);
-  transform: rotate(-5deg) scale(1.2);
+@keyframes rotateBack {
+  0% {
+    --degsvar: 0deg;
+  }
+  50% {
+    --degsvar: 180deg;
+  }
+  100% {
+    --degsvar: 360deg;
+  }
 }
-.header div .__nav-menu {
-  list-style: none;
-  display: flex;
-  gap: 15px;
+.border::before {
+  --degsvar: 0deg;
+  content: "";
+  position: absolute;
+  top: -7px;
+  left: -13px;
+  border-radius: 18px;
+  width: 628px;
+  height: 115px;
+  background: linear-gradient(var(--degsvar), #ff0531, #00fff4);
+  z-index: -1;
+  animation: rotateBack 6s reverse ease-in-out infinite forwards;
 }
-.header div .__menu-item a {
-  color: hsl(0, 0%, 93%);
-  text-decoration: none;
-  padding: 8px 12px;
-  border-radius: 4px;
-  transition: all 0.7s ease-in-out;
-}
-.header div .__menu-item a:hover {
-  color: hsl(0, 89%, 81%);
-  font-size: 1.2rem;
-  font-weight: 500;
-}
-.header div .__nav-button {
-  font-size: 1.15rem;
-  font-family: "Brawler", serif;
-  background-color: hsl(0, 89%, 51%);
-  color: hsl(0, 89%, 111%);
-  border: none;
-  padding: 10px 15px;
-  border-radius: 4px;
-  cursor: pointer;
-  transition: all 0.5s ease-in-out;
-}
-.header div .__nav-button:hover {
-  color: hsl(0, 89%, 131%);
-  background-color: hsl(0, 89%, 41%);
-  transform: scale(1.2) translateY(-2px);
+
+.border::after {
+  --degsvar: 0deg;
+  content: "";
+  position: absolute;
+  top: -7px;
+  left: -13px;
+  border-radius: 18px;
+  width: 628px;
+  height: 115px;
+  background: linear-gradient(var(--degsvar), #ff0531, #00fff4);
+  z-index: -2;
+  filter: blur(10px);
+  animation: rotateBack 6s ease-in-out infinite forwards;
 }/*# sourceMappingURL=styles.css.map */
->>>>>>> c35b6fd (feat: adicionar estrutura de cabeçalho, estilos e animações ao projeto)
-=======
-/*# sourceMappingURL=styles.css.map */
->>>>>>> 8d546be (feat: atualizar README e reiniciar estrutura base.)
