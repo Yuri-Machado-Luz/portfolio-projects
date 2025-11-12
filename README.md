@@ -1,14 +1,14 @@
-# Portfólio | Biblioteca de Projetos
+# portifólio | Biblioteca de Projetos
 
 ![Em Desenvolvimento](https://img.shields.io/badge/status-em%20desenvolvimento-yellow)
 ![Versão](https://img.shields.io/badge/version-0.1.0--alpha-blue)
 ![Licença](https://img.shields.io/badge/license-UNLICENSED-red)
 
-Este repositório é meu portfólio pessoal onde coleciono e apresento projetos que desenvolvo durante minha jornada de aprendizado em programação. O objetivo é demonstrar meu progresso e habilidades em desenvolvimento web.
+Este repositório é meu portifólio pessoal onde coleciono e apresento projetos que desenvolvo durante minha jornada de aprendizado em programação. O objetivo é demonstrar meu progresso e habilidades em desenvolvimento web.
 
 ## 📋 Sobre o Projeto
 
-Este é um site portfólio desenvolvido para apresentar meus projetos pessoais de forma organizada e profissional. O site foi construído com HTML, CSS e JavaScript, focando em aprender as bases do desenvolvimento web front-end.
+Este é um site portifólio desenvolvido para apresentar meus projetos pessoais de forma organizada e profissional. O site foi construído com HTML, CSS e JavaScript, focando em aprender as bases do desenvolvimento web front-end.
 
 ### O que você vai encontrar
 
