@@ -30,17 +30,14 @@
   },
   "license": "UNLICENSED",
   "author": "Yuri Machado Luz",
-<<<<<<< HEAD
-<<<<<<< HEAD
   "type": "module",
-=======
-  "type": "diverse",
->>>>>>> 4e0911a (feat: initialize portfolio project with Playwright testing framework)
-=======
-  "type": "module",
->>>>>>> 0ff6350 (feat: adicionar configuração do ESLint, arquivos HTML e JavaScript, e atualizar package.json)
   "main": "none",
-  "scripts": {},
+  "scripts": {
+    "build:css": "sass src/scss/styles.scss:src/scss/styles.css",
+    "watch:css": "sass --watch src/scss/styles.scss:src/scss/styles.css",
+    "test": "playwright test",
+    "test:ui": "playwright test --ui"
+  },
   "dependencies": {
     "eslint": "^9.38.0",
     "glob": "^11.0.3",
@@ -48,13 +45,6 @@
     "npm": "^11.6.2",
     "prettier": "^3.6.2",
     "sass": "^1.93.2",
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-    "vue": "^3.5.22",
->>>>>>> 4e0911a (feat: initialize portfolio project with Playwright testing framework)
-=======
->>>>>>> 0ff6350 (feat: adicionar configuração do ESLint, arquivos HTML e JavaScript, e atualizar package.json)
     "yamljs": "^0.3.0"
   },
   "devDependencies": {
