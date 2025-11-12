@@ -1,0 +1,57 @@
+@use "../themes/typography" as t;
+@use "../themes/colors" as c;
+@use "sass:color" as sc;
+@use "../style/breakpoints" as bp;
+
+#home {
+  scroll-margin-top: 100px;
+}
+
+#home > h1, #home > h1.active_link {
+  color: c.$c-light !important;
+  animation: none;
+}
+
+#home {
+  margin-top: 10px;
+  margin-bottom: 12rem;
+  h1 {
+    font-size: 4.5rem;
+    font-weight: 200;
+    text-box: trim-start text alphabetic;
+    span {
+      font-size: 8rem;
+      color: c.$c-accent;
+    }
+    @include bp.breakpoint(medium) {
+      font-size: 3.5rem;
+    }
+    @include bp.breakpoint(sm-md) {
+      font-size: 2.8rem;
+    }
+    @include bp.breakpoint(xl-small) {
+      font-size: 2.5rem;
+    }
+  }
+  .tag {
+    width: fit-content;
+    align-self: center;
+    font-size: 1.2rem;
+    font-weight: 200;
+    margin-bottom: 1rem;
+    letter-spacing: 0.2rem;
+    color: sc.adjust(c.$c-neon, $lightness: 40%);
+    border: solid 1px sc.adjust(c.$c-graphite, $lightness: -1%, $alpha: 0.8);
+    padding: 1.3rem 2rem;
+    border-radius: 60px;
+    background: sc.adjust(c.$c-graphite, $alpha: -0.8);
+    backdrop-filter: blur(200px) opacity(-60%);
+    @include bp.breakpoint(sm-md) {
+      font-size: 1rem;
+      letter-spacing: 0.1rem;
+    }
+  }
+}
+
+
+

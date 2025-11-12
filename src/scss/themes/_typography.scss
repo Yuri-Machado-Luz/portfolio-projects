@@ -25,9 +25,12 @@
   font-style: normal;
 }
 */
+$font-head: 'IBM Plex Serif', serif;
+$font-body: 'Inter Tight', sans-serif;
+$font-accent: 'Bodoni Moda SC', serif;
 
 :root {
-  --font-head: 'Inter Tight', sans-serif;
-  --font-body: 'IBM Plex Serif', serif;
+  --font-head: 'IBM Plex Serif', serif;
+  --font-body: 'Inter Tight', sans-serif;
   --font-accent: 'Bodoni Moda SC', serif;
 }

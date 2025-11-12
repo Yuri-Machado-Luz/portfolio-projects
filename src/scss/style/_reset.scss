@@ -1,0 +1,61 @@
+@use "../themes/colors" as c;
+@use "../themes/typography" as t;
+@use "./breakpoints" as bp;
+@use "sass:color" as sc;
+
+html {
+  scroll-behavior: smooth;
+  font-family: var(--font-head), sans-serif, Arial, Helvetica, sans-serif;
+}
+
+body {
+  position: relative;
+  padding: 0;
+  background: sc.adjust(c.$c-dark, $alpha: -0.9);
+  color: c.$c-light;
+  font-family: t.$font-body;
+  z-index: 0;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font: inherit;
+  color: c.$c-light;
+  list-style: none;
+  text-transform: none;
+  text-decoration: none;
+
+  a {
+    color: inherit;
+    text-decoration: none;
+    font-family: inherit;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: t.$font-head;
+  font-size: 2rem;
+  align-items: inherit;
+  align-self: inherit;
+  margin-bottom: 1.5rem;
+}
+
+p {
+  font-family: t.$font-body;
+  font-size: 1.2rem;
+  line-height: 1.6;
+  text-align: justify;
+  max-width: 50vw;
+  color: c.$c-light;
+}
+
+.separador {
+  height: 140px; // Mesma altura do navbar para evitar sobreposição
+}

@@ -2,9 +2,13 @@
 
 // Mapa de breakpoints
 $breakpoints: (
+  xl-small: 410px,
+  // Breakpoint para telas pequenas (celulares)
   small: 480px,
+  // Breakpoint para telas entre small e medium
+  sm-md: 640px,
   // Breakpoint para telas médias (tablets)
-  medium: 768px,
+  medium: 869px,
   // Breakpoint para telas grandes (desktops)
   large: 1024px,
   // Breakpoint para telas extra grandes (monitores grandes)
